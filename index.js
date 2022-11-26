@@ -67,10 +67,7 @@ function generateWrapper(name) {
 
 		let params = signature.params.map((p) => p.name).join(", ");
 		if (params != previousParams) {
-			let condition = `majorVersion === ${majorVersion} && minorVersion >= ${minorVersion}`;
-			if (isLatest) {
-				condition = `majorVersion > ${majorVersion} || (${condition})`;
-			}
+			let condition = `majorVersion > ${majorVersion} || (majorVersion === ${majorVersion} && minorVersion >= ${minorVersion})`;
 			let body = `\t\treturn factory.${name}(
 \t\t\t${signature.params
 				.map((p) =>
