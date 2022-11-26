@@ -44,6 +44,7 @@ function generateWrapper(name) {
 				.replaceAll("undefined", "void"),
 		])
 	);
+	let inputParamsKeys = [...inputParams.keys()].join(", ");
 
 	let previousParams = null;
 	for (let i = 0; i < versions.length; i++) {
@@ -68,7 +69,7 @@ function generateWrapper(name) {
 		let params = signature.params.map((p) => p.name).join(", ");
 		if (params != previousParams) {
 			let condition = `majorVersion > ${majorVersion} || (majorVersion === ${majorVersion} && minorVersion >= ${minorVersion})`;
-			let body = `\t\treturn factory.${name}(
+			let body = `\t\treturn (factory, ${inputParamsKeys}) => factory.${name}(
 \t\t\t${signature.params
 				.map((p) =>
 					inputParams.has(p.name)
@@ -91,13 +92,13 @@ function generateWrapper(name) {
 
 	return {
 		report,
-		wrapper: `export function ${name}(factory: any, ${[...inputParams]
+		wrapper: `export const ${name}: (factory: any, ${[...inputParams]
 			.map(([name, type]) => `${name}: ${type}`)
-			.join(", ")}): ${latestSignature.returnType} {
+			.join(", ")}) => ${latestSignature.returnType} = (() => {
 	${alternatives.join(" else ")} else {
 		invariant(false);
 	}
-}\n\n`,
+})();\n\n`,
 	};
 }
 
