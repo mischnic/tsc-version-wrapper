@@ -1,0 +1,88 @@
+# createImportClause
+3.0.3    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.1.8    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.2.4    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.3.4000 name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.4.5    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.5.3    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.6.5    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.7.7    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+3.8.3    name: Identifier | undefined, namedBindings: NamedImportBindings | undefined, isTypeOnly: boolean
+3.9.10   name: Identifier | undefined, namedBindings: NamedImportBindings | undefined, isTypeOnly: boolean
+4.0.8    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.1.6    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.2.4    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.3.5    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.4.4    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.5.5    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.6.4    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.7.4    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.8.4    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+4.9.3    isTypeOnly: boolean, name: Identifier | undefined, namedBindings: NamedImportBindings | undefined
+
+# createImportDeclaration
+3.0.3    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.1.8    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.2.4    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.3.4000 decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.4.5    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.5.3    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.6.5    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.7.7    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.8.3    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+3.9.10   decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+4.0.8    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+4.1.6    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+4.2.4    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+4.3.5    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+4.4.4    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression
+4.5.5    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression, assertClause: AssertClause
+4.6.4    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression, assertClause: AssertClause
+4.7.4    decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression, assertClause: AssertClause
+4.8.4    modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression, assertClause: AssertClause
+4.9.3    modifiers: readonly Modifier[] | undefined, importClause: ImportClause | undefined, moduleSpecifier: Expression, assertClause: AssertClause
+
+# createImportSpecifier
+3.0.3    propertyName: Identifier | undefined, name: Identifier
+3.1.8    propertyName: Identifier | undefined, name: Identifier
+3.2.4    propertyName: Identifier | undefined, name: Identifier
+3.3.4000 propertyName: Identifier | undefined, name: Identifier
+3.4.5    propertyName: Identifier | undefined, name: Identifier
+3.5.3    propertyName: Identifier | undefined, name: Identifier
+3.6.5    propertyName: Identifier | undefined, name: Identifier
+3.7.7    propertyName: Identifier | undefined, name: Identifier
+3.8.3    propertyName: Identifier | undefined, name: Identifier
+3.9.10   propertyName: Identifier | undefined, name: Identifier
+4.0.8    propertyName: Identifier | undefined, name: Identifier
+4.1.6    propertyName: Identifier | undefined, name: Identifier
+4.2.4    propertyName: Identifier | undefined, name: Identifier
+4.3.5    propertyName: Identifier | undefined, name: Identifier
+4.4.4    propertyName: Identifier | undefined, name: Identifier
+4.5.5    isTypeOnly: boolean, propertyName: Identifier | undefined, name: Identifier
+4.6.4    isTypeOnly: boolean, propertyName: Identifier | undefined, name: Identifier
+4.7.4    isTypeOnly: boolean, propertyName: Identifier | undefined, name: Identifier
+4.8.4    isTypeOnly: boolean, propertyName: Identifier | undefined, name: Identifier
+4.9.3    isTypeOnly: boolean, propertyName: Identifier | undefined, name: Identifier
+
+# updateExportDeclaration
+3.0.3    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.1.8    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.2.4    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.3.4000 node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.4.5    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.5.3    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.6.5    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.7.7    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExports | undefined, moduleSpecifier: Expression | undefined
+3.8.3    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined, isTypeOnly: boolean
+3.9.10   node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined, isTypeOnly: boolean
+4.0.8    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined
+4.1.6    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined
+4.2.4    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined
+4.3.5    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined
+4.4.4    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined
+4.5.5    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined, assertClause: AssertClause | undefined
+4.6.4    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined, assertClause: AssertClause | undefined
+4.7.4    node: ExportDeclaration, decorators: readonly Decorator[] | undefined, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined, assertClause: AssertClause | undefined
+4.8.4    node: ExportDeclaration, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined, assertClause: AssertClause | undefined
+4.9.3    node: ExportDeclaration, modifiers: readonly Modifier[] | undefined, isTypeOnly: boolean, exportClause: NamedExportBindings | undefined, moduleSpecifier: Expression | undefined, assertClause: AssertClause | undefined
+
